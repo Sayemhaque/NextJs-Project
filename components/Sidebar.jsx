@@ -21,7 +21,7 @@ const Sidebar = () => {
             <ul className='space-y-8 pt-24'>
                 {routes.map(({ title, to, id }) =>
                     <li key={id} className={`${pathName === to ? "transition duration-500 ease-in-out bg-white text-zinc-950 px-2 py-1 rounded-md" : ""} font-bold font-serif`}>
-                        <Link href={to}>
+                        <Link prefetch={false} href={to}>
                             {title}
                         </Link>
                     </li>
