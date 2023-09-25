@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} grid grid-cols-5`}>
-        <div className='col-span-1 bg-green-300 h-screen'>
+        <div className='col-span-1 bg-fuchsia-700 h-screen'>
         <Sidebar/>
         </div>
        <div className='col-span-4 bg-red-100'>
