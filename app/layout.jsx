@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <div className='col-span-1 bg-fuchsia-700 h-screen'>
         <Sidebar/>
         </div>
-       <div className='col-span-4 bg-red-100'>
+       <div className='col-span-4 bg-gray-200'>
        {children}
        </div>
         </body>
